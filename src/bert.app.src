@@ -1,0 +1,10 @@
+{application, bert, [
+    {id, "bert"},
+    {description, "Erlang bert module"},
+    {vsn, git},
+    {modules, []},
+    {registered, []},
+    {applications, []},
+    {mod, {bert, []}},
+    {env, []}
+]}.
