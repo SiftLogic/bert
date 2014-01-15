@@ -2,9 +2,8 @@
     {id, "bert"},
     {description, "Erlang bert module"},
     {vsn, git},
-    {modules, []},
-    {registered, []},
+    {modules, [bert]},
+    {registered, [bert_sup]},
     {applications, []},
-    {mod, {bert, []}},
     {env, []}
 ]}.
